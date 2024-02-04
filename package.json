@@ -1,0 +1,17 @@
+{
+  "name": "node-fundamentals-challenge",
+  "version": "1.0.0",
+  "description": "Rocketseat node fundamentals challenge",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "import": "node src/streams/import-csv.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.3"
+  }
+}
